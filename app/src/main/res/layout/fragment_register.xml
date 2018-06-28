@@ -7,6 +7,7 @@
     <!--Tool-->
 
     <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarRegister"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:background="@color/colorPrimary"
         android:layout_width="match_parent"
@@ -23,21 +24,25 @@
 
 
     <EditText
+        android:id="@+id/name"
         android:background="@drawable/display_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
+        android:id="@+id/user"
         android:background="@drawable/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
+        android:id="@+id/password"
         android:background="@drawable/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <ImageView
+        android:id="@+id/pic"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/bg1"
         android:layout_width="wrap_content"
